@@ -1,0 +1,267 @@
+*
+body{
+background-image:linear-gradient(to  right ,#204060 ,#b9b732);
+font-family: "Noto Sans", sans-serif;
+text-decoration-skip-ink: auto;
+}
+
+.miband{
+font-family: Oswald, sans-serif;
+width:400px;
+height:400px;
+margin:100px;
+margin-left:38%;
+background-color:black;
+border:2px solid;
+border-color:silver;
+border-radius:50%;
+}
+#zegar{
+  color:#272d33;
+  font-size:50px; 
+}
+#data{
+  color:#272d33;
+  font-size:25px;
+}
+#dataandzegar{
+color:white;
+text-align:center;
+}
+#steps{
+visibility:hidden;
+padding-top:30px;
+margin-left:40%;
+border-radius:50%
+}
+#puls{
+visibility:hidden;
+padding-top:30px;
+margin-left:40%;
+border-radius:50%
+}
+h1{
+    font-size:60px;
+    Font-family:Oswald, sans-serif;
+}
+.tekst{
+    width:100%;
+    height:300px;
+    font-style: oblique;
+}
+#cena{
+    font-size:80px;
+    margin-left:80%;
+    font-family:Oswald, sans-serif;
+}
+.btn-gradient {
+    width:150px;
+    height:60px;
+    border-width: 3px;
+    border-style: solid;
+    background-color:#444444;
+    border-image: linear-gradient(to bottom right, #FFCC00,#0066CC ) 1;
+    font-family:Oswald, sans-serif;
+    font-weight: 600;
+    color:#4d79ff; 
+    font-size:30px;
+} 
+.btn-gradient-2 {
+    width:150px;
+    height:60px;
+    border-width: 3px;
+    border-style: solid;
+    background-color:#444444;
+    border-image: linear-gradient(to bottom left, #FFCC00 ,#0066CC) 1;
+    margin-left:20px;
+    font-weight: 600; 
+    font-family:Oswald, sans-serif;
+    color:#4d79ff;  
+    font-size:30px;
+}
+
+#buttons{
+  width:auto;
+  height:auto;
+margin-left: -120%;
+}
+  .tooltiptext {
+    visibility: hidden;
+    width:auto;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  button:hover  .tooltiptext{
+    font-size:25px;
+    cursor:pointer;
+    visibility: visible;
+  }
+ .text{
+float:left;
+padding-top:200px;
+margin-left:13%;
+ }
+ #flag{
+  width:50px;
+ }
+ .galeria{ 
+  background-image:linear-gradient(to right,#cc5200,#662900);
+  text-align:center;
+  margin-left:6%;
+  width:88%;
+  height:800px;;
+  color: #adc2eb;
+  border-radius:10px 100px;
+ }
+#galeria1{
+  text-shadow: 0 0 5px #204070, 0 0 7px #444444;
+  font-size:30px;
+}
+ #a1{
+width:280px;
+height:280px;
+margin:20px;
+border-radius:20px;
+ }
+ #a1:hover{
+cursor:pointer;
+transform:scale(1.03);
+ }
+.powrot{
+padding-top:300px;
+float:left;
+margin-left:-150px;
+}
+#a5{
+position: absolute;
+text-decoration: none;
+Color:#80aaff;
+visibility: visible;
+font-size:90px;
+font-family:Oswald, sans-serif;
+font-weight: 900;
+font-style:normal;
+transform:rotateZ(270deg);
+}
+#a5:hover{
+cursor:pointer;
+border-left:10px solid  transparent;
+border-color:#FFCC00
+}
+#charity{
+text-decoration: none;
+}
+#a6{
+position: absolute;
+text-decoration: none;
+Color: #8cff1a;
+visibility: visible;
+font-size:90px;
+font-family:Oswald, sans-serif;
+font-weight: 900;
+font-style:normal;
+transform:rotateZ(270deg);
+}
+#a6:hover{
+cursor:pointer;
+border-left:10px solid transparent;
+border-color:#FFCC00;
+}
+ #created{
+padding-top:120px;
+text-align:center;
+font-size:25px;
+font-weight: bold;
+ }
+ #film{
+  font-style:oblique;
+}
+#video{
+width:600px;
+border-radius:30px;
+margin-left:50px;
+}
+#p{
+  text-align:center;
+  font-weight: 600;
+  color:#8cff1a;
+}
+.filmik{
+float:left;
+margin:150px;
+width:700px;;
+background-image:linear-gradient(to right,  #1f2e2e, #669999);
+margin-left:30%;
+height:420px;
+border:2px solid;
+border-color:#d1e0e0;
+border-radius:50px 15px ;
+}
+#video:hover{
+  cursor:pointer;
+  transform:scale(1.01); 
+}
+#battery-2{
+  visibility: hidden;
+ margin-left:70px;
+  color:white;
+}
+#credit-card{
+  visibility: hidden;
+  color:white;
+  margin-left:10px;
+}
+#commenting{
+  visibility: hidden;
+  color:white;
+  margin-left:10px;
+}
+#gears{
+  visibility: hidden;
+  color:white;
+  margin-left:10px;
+}
+#likedislike{
+  color:#1f7a1f;
+  padding-top:50px;
+  text-align:none;
+font-size:170px;
+width:max-content;
+height:fit-content;
+margin-left:80px;
+}
+#like:hover{
+  transition: all 10s;
+  transform:scale(1.03);
+}
+#dislike{
+  color:#990000;
+  margin-left:250px;
+}
+#dislike:hover{
+  transition: all 10s;
+  transform:scale(1.03);
+  transition: ease 2s;
+}
+#h1galery{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#amoleddiv{
+  padding-top:300px;
+  position:relative;
+  margin-left:9%;
+}
+#amoledimg{
+border-radius:10px;
+width:1500px;
+height:600px
+}
+#h2{
+font-size:30px;
+color:#fff;
+margin-left:200px;
+}
